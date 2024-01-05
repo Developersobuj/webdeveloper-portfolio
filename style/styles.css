@@ -1,0 +1,59 @@
+/* shared css style */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.primary-btn {
+    background-color: #FD6E0A;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+.primary-color {
+    color: #FD6E0A;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 200px;
+}
+
+nav>h3 {
+    font-size: 45px;
+    font-weight: 800;
+    color: #181818;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+
+}
+
+nav>ul li {
+    list-style: none;
+    margin-right: 50px;
+    color: #474747;
+    font-size: 20px;
+
+}
+
+nav>ul li button {
+    font-size: 20px;
+}
+
+nav>ul li a {
+    text-decoration: none;
+}
