@@ -57,3 +57,45 @@ nav>ul li button {
 nav>ul li a {
     text-decoration: none;
 }
+
+.banner {
+    background: #FFF8F3;
+    padding: 30px 30px 30px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner div {
+    width: 50%;
+}
+
+.banner div>h3 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.banner div>h1 {
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.banner div>p {
+    font-size: 18px;
+}
+
+.contact_btn {
+
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+.hardy_img {
+    width: 500px;
+}
